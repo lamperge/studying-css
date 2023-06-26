@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Positions</h1>
+    <!--Sticky-->
+    <h2>Sticky</h2>
+    <div class="block block-sticky">Sticky</div>
+
+    <!--Static-->
+    <h2>Static</h2>
+    <div class="block">static 1</div>
+    <p><i>~ Paragraph to demonstrate <b>HTML Flow</b> and static position. (Notice how the block respected the fact that there was a paragraph tag before it) </i></p>
+    <div class="block">static 2</div>
+    <!--Relative-->
+    <h2>Relative</h2>
+    <div class="block original-position"> original position
+        <div class="block block-relative">relative </div>
+    </div>
+    <!--Absolute-->
+    <h2 id="h2abs">Absolute</h2>
+    <div class="block contention original-position">
+        <div class="block block-absolute">Absolute 1 
+            <div class="block block-absolute">Absolute 2
+                <div class="block block-absolute">Absolute 3</div>
+            </div>
+        </div>
+    </div>
+    <!--Fixed-->
+    <h2>Fixed</h2>
+    <p><i>Look to right</i></p>
+    <div class="block block-fixed fixed-bot">fixed</div>
+    <div class="block block-fixed fixed-top">fixed</div>
+    <div class="block block-fixed menu">menu example</div>
+</body>
+</html>

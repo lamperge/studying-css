@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(70, 0, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+/* static*/
+.block {
+    background-color: tomato;
+    height: 180px;
+    width: 180px;
+    margin: 3px;
+    border-radius: 15%;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+}
+
+/*relative*/
+.block-relative {
+    position: relative;
+    top: 30px;
+    left: 25px;
+}
+
+.original-position {
+    background-color: aquamarine;
+}
+/*absolute*/
+#h2abs {
+    margin-top: 60px;
+}
+.block-absolute {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    height: 60px;
+    width: 100px;
+}
+
+.contention {
+    position: relative;
+}
+
+/*fixed*/
+.block-fixed {
+    position: fixed;
+    background-color: green;
+}
+
+.fixed-bot {
+    bottom: 1px;
+    right: 1px;
+    height: 50px;
+    width: 50px;
+}
+
+.fixed-top {
+    top: 1px;
+    right: 1px;
+    height: 50px;
+    width: 50px;
+}
+
+.menu {
+    background-color: blue;
+    top: 0px;
+    left: 250px;
+    width: 800px;
+    height: 20px;
+
+}
+
+/*Sticky*/
+.block-sticky {
+    position: sticky;
+    top: 1px;
+    background-color: greenyellow;
+}
